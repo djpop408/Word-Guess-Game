@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url('../images/bg.png');
+    background-repeat: repeat-x;
+    background-color: #312855;
+}
+
+#header {
+    background-image: url('../images/foo-fighters.png');
+    width: 945px;
+    height: 595px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#question {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    display: block;
+    font-size: 34px;
+    text-align: center;
+    position: absolute;
+    width: 910px;
+    bottom: 57px;
+}
+
+#results {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto 40px auto;
+    background-color: #00BFB1;
+    border-radius: 6px;
+    padding: 16px;
+    bottom: 0px;
+}
+
+#remain {
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+
+audio {
+    width: 230px;
+    height: 23px;
+    position: absolute;
+    bottom: 200px;
+    left: 341px;
+}
